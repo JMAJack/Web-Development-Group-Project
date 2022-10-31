@@ -1,7 +1,7 @@
 # Web-Development-Group-Project
-Group members : Jon Marc Jackson []
+Group members : Jon Marc Jackson [2106386]
                 Justin Hoilette []
-                  []
+                Akeem Creary [2110275]
                   []
  
 History: 
