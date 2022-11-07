@@ -8,3 +8,4 @@ History:
 
 31/10/2022 10:15am Repository created [Jon Marc Jackson]
 31/10/2022 10:58am Index.html created [Jon Marc Jackson]
+07/11/2022 4:23pm  Updated Index.html file with a form and javascript started [Jon Marc Jackson]
