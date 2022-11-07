@@ -7,13 +7,257 @@
 		<meta name="description" content = "october 31,2022"/>
 
         <style>
-
-
+		body {
+  			background-image: url('./Media/3.png');
+		     }
         </style>
  </head>
  <body>
 
+    <header>
+	
+	    <h1 style="color:white;">
+		  <center>
+		    Work Order Request
+		  </center>
+		</h1> 
+		
+	  <hr size = '8'></hr>
+	  <br/>
+	  
+	</header>
+	
+	<section>
+	  <form action = "mailto:jjonmarc21@gmail.com" name = "information">
+	   <center>
+	    <table style = "background-color:#808080" border = '1' cellspacing = '2' cellpadding = '10' width = "80%" >
+		  <!-- Row 1 -->
+		  <tr>
+		    <th colspan = '5'>
+		      <h2 style="color:white;">
+			    Fill the following Form
+			  </h2>
+			</th>
+		  </tr>
+		  
+		  <!-- Row 2 -->
+	      <tr>
+		  
+		    <!-- Column 1 -->
+		    <td style = 'text-align:right'>
+		      <label for="fname">First Name: </label> <br/>
+			</td>
+			
+			<!-- Column 2 -->
+			<td>
+		      <input type="text" id="fname" name="fname" placeholder ="E.g. John"> 
+			</td>
 
+		  </tr>
+		  
+		  <!-- Row 3 -->
+		  <tr>
+		  
+		    <!-- Column 1 -->
+			<td style = 'text-align:right'>
+			  <label for="lname">Last Name: </label> <br/>
+			</td>
+		    
+			<!-- Column 2 -->
+			<td>		
+		      <input type="text" id="lname" name="lname" placeholder = "E.g. Brown"> <br/>
+			</td>	
+		  </tr>
+		  
+		  <!-- Row 4 -->
+		  <tr>
+            
+            <!-- Column 1 -->			
+			<td style = 'text-align:right'>
+                <label for="street">Street Name: </label> <br/>
+		    </td>
+			
+			<!-- Column 2 -->
+			<td>
+                <input type="text" id="street" name="street" placeholder ="E.g. Waterloo Road"> <br/>				     
+			</td>
+		  </tr>
+			
+		  <!-- Row 5 -->
+		  <tr>
+            
+            <!-- Column 1 -->			
+			<td style = 'text-align:right'>
+                <label for="city">City: </label> <br/>
+		    </td>
+			
+			<!-- Column 2 -->
+			<td>
+                <input type="text" id="city" name="city" placeholder ="E.g. Kingston"> <br/>				     
+			</td>
+		  </tr>
+		
+		  <!-- Row 6 -->
+		  <tr>
+            
+            <!-- Column 1 -->			
+			<td style = 'text-align:right'>
+                <label for="street">Town: </label> <br/>
+		    </td>
+			
+			<!-- Column 2 -->
+			<td>
+                <input type="text" id="town" name="town" placeholder ="E.g. Havendale"> <br/>				     
+			</td>
+		  </tr>
+			
+		  <!-- Row 7 -->
+		  <tr> 
+		    
+			<!-- Column 1 -->
+			<td style = 'text-align:right'>		
+                <label for="parish">Parish: </label> <br/>
+			</td>
+			
+			<!-- Column 2 -->
+			<td>
+                  <select id="parish" name="parish">
+				    <option value = "Clarendon"> Clarendon </option>
+				    <option value = "Hanover"> Hanover </option>
+				    <option value = "Kingston"> Kingston </option>
+				    <option value = "Manchester"> Manchester </option>
+				    <option value = "Portland"> Portland </option>
+				    <option value = "Saint Andrew"> Saint Andrew </option>
+				    <option value = "Saint Ann"> Saint Ann </option>
+				    <option value = "Saint Catherine"> Saint Catherine </option>
+				    <option value = "Saint Elizabeth"> Saint Elizabeth </option>
+				    <option value = "Saint James"> Saint James </option>
+				    <option value = "Saint Mary"> Saint Mary </option>
+				    <option value = "Saint Thomas"> Saint Thoman </option>
+				    <option value = "Trelawny"> Trelawny </option>
+				    <option value = "Westmoreland"> Westmoreland </option>
+                  </select>	
+               				 
+			</td>
+		  </tr>
+		  
+		  <!-- Row 5 -->
+		  <tr>
+		  
+		    <!-- Column 1 -->
+			<td style = 'text-align:right'>
+			  <label for="DoR">Date of Request: </label> <br/>
+			</td>
+		    
+			<!-- Column 2 -->
+			<td>		
+		      <input type="date" id="DoR" name="DoR" max="2022-09-19"> <br/>
+			</td>	
+		  </tr>
+		  
+		  <!-- Row 6 -->
+		  <tr>
+		  
+		    <!-- Column 1 -->
+			<td style = 'text-align:right'>
+			  <label for="email">Email Address: </label> <br/>
+			</td>
+		    
+			<!-- Column 2 -->
+			<td>		
+		      <input type="email" id="email" name="email" placeholder ="youremail@example.com"> <br/>
+			</td>
+		  </tr>
+		  
+		  <!-- Row 7 -->
+		  <tr>
+		    
+			<!-- Column1 -->
+			<td>
+			  <p style = 'text-align:right'>
+			    Nationality:
+			  </p>  
+			</td>
+			
+			<!-- Column 2 -->
+			<td>
+			  <input type ="radio" id="nationality1" name="nationality" value="Jamaican">
+			    <label for="nationality">Jamaican</label>
+			   
+			  <input type ="radio" id="nationality2" name="nationality" value="Jamaican">
+			    <label for="nationality">Non-Jamaican</label><br>
+			</td>
+		  </tr>
+		  
+		  
+		  <!-- Row 8 -->
+		  <tr>
+		    
+			<!-- Column 1 -->
+			<td>
+			  <p style = 'text-align:right'>
+			    Type of Assistance Required:
+			  </p>
+			</td>
+			
+			<!-- Column 2 -->
+			<td>
+			  <input type ="checkbox" id="networking" name="networking" value="Networking">
+			    <label for="networking">Networking</label>
+				
+			  <input type ="checkbox" id="itHelp" name="itHelp" value="IT Help">
+			    <label for="networking">IT Help</label>
+				
+			  <input type ="checkbox" id="compParts" name="compParts" value="Computer Parts">
+			    <label for="networking">Computer Parts</label>
+				
+			  <input type ="checkbox" id="webpageDev" name="webpageDev" value="Webpage Development">
+			    <label for="networking">Webpage Development</label>
+				
+			  <input type ="checkbox" id="webpageMaintenance" name="webpageMaintenance" value="Webpage Maintenance">
+			    <label for="networking">Webpage Maintenance</label>
+				
+			</td>
+		
+		  <!-- Row 9 -->
+		  <tr>
+			<td colspan = '2'>
+			  <center>
+			    <textarea name ="Requirements" rows = "10" cols ="80"> 
+				[Please explain the details of the service you require]</textarea>
+			  </center>
+			</td>
+		  </tr>
+
+          <!-- Row 10 -->
+		  <tr>
+		    
+			<!-- Column 1 -->
+			<td>
+			  <label for="budget">Budget (No less than $20,000 JMD):</label>
+			</td>
+			
+			<!-- Column 2 -->
+			<td>
+			  <input type="number" id="budget" name="budget" min="20000" max="9999999999999999">
+			</td>
+		  </tr>
+		  
+          <!-- Row 11 -->		  
+		  <tr>
+		    <td colspan = '2'>
+			  <center>
+			    <input type="submit" value = "Submit"></input>
+				<input type = "reset" value = "Clear Fields"> </input>
+			  </center>
+			</td>
+		  </tr>
+		  
+		</table>
+	   </center>
+	  </form>
+	  
+	</section>
 
  </body>
 </html>
