@@ -10,6 +10,25 @@
 		body {
   			background-image: url('/3.png');
 		     }
+
+		table
+		{
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th 
+		{
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) 
+		{
+          background-color: #dddddd;
+        }
         </style>
  </head>
  <body>
@@ -244,6 +263,10 @@
 
 		</table>
 	   </center>
+
+		<button type="button" onclick="document.getElementById('demo').innerHTML = PlayGame()">
+			Click me to display Date and Time.
+		</button>
 	   
 	  </form>
       <!-- Task 1 -->
@@ -267,7 +290,53 @@
 
         function PlayGame() 
         {
-
+			<table>
+          <tr>
+            <th>Category 1</th> 
+            <th>Category 2</th> 
+            <th>Category 3</th> 
+            <th>Category 4</th> 
+            <th>Category 5</th> 
+          </tr>
+          <tr>
+            <td>$100</td> 
+            <td>$100</td> 
+            <td>$100</td> 
+            <td>$100</td> 
+            <td>$100</td> 
+          </tr>
+          <tr>
+            <td>$200</td> 
+            <td>$200</td> 
+            <td>$200</td> 
+            <td>$200</td> 
+            <td>$200</td> 
+          </tr>
+          <tr>
+            <td>$300</td> 
+            <td>$300</td> 
+            <td>$300</td> 
+            <td>$300</td>
+            <td>$300</td> 
+          </tr>
+          <tr>
+            <td>$400</td> 
+			<td>$400</td> 
+			<td>$400</td> 
+			<td>$400</td> 
+			<td>$400</td> 
+          </tr>
+          <tr>
+            <td>$500</td> 
+			<td>$500</td> 
+			<td>$500</td> 
+			<td>$500</td> 
+			<td>$500</td> 
+          </tr>
+          <tr>
+            
+          </tr>
+        </table>
         }
 
     </script>
