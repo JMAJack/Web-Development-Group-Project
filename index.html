@@ -7,9 +7,10 @@
 		<meta name="description" content = "Started october 31,2022"/>
 
         <style>
-		body {
+		body 
+		{
   			background-image: url('/3.png');
-		     }
+		}
 
 		table
 		{
@@ -280,7 +281,21 @@
         }
 
         const PlayersData = [];
+
+		/*
+		In PlayersData[]  include the amount of questions got correct, incorrect and total questions.
+		Thats 3 entriess so far
+		*/
             
+		//Buttons
+
+			/*
+				<button onclick="PlayGame()">Play Game</button>
+				<button onclick="PlayGame()">Play Again</button>
+				<button onclick="EndGame()">End Game</button>
+				<button onclick="CheckAnswer()">Answer</button>
+			*/
+
     </script>
     <!-- JavaSCript Task 2-->
 
@@ -343,7 +358,6 @@
 	In termination of this game are
 	1. Player press the exit button [Moves to an Thanks for playing screen]
 	2. all options are used
-	3.
 	*/
 
     </script>
@@ -356,7 +370,21 @@
 
             function CheckAnswer()
             {
+				/* 
+				if statement to be used here
 
+				if the question is correct 
+					{Remove the question from the board/ or change the name of the cell}
+					{PLayer that gets the aomunt that the question is worth}
+					{Player gets another try at choosing another question}
+
+				If not
+					{Player losses the amount the question is worthed for}
+					Another if statement
+						{If player wishes to know the answer, It will be revealed and taken off the board}
+						if not
+							{the question will remain}
+				*/
             }
 
         </script>
