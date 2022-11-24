@@ -1,0 +1,92 @@
+body {
+    background-color: #191970;
+}
+  
+.pinfo{
+    display: block;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: antiquewhite;
+}
+
+div.div{
+    color: antiquewhite;
+    font-family: Helvetica, sans-serif;
+}
+
+.div1{
+    background-color: #191970;
+    text-align: left;
+    color: antiquewhite;
+    border: 5px solid silver;
+    width: 550px;
+    height: 680px;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.div2 label{
+    width: 140px;
+    display: inline-block;
+    margin: 4px;
+}
+
+.div2 input{
+    border-radius: 7px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 14px;
+    border: 1px solid white;
+    width: 7cm;
+}
+
+.div2 select{
+    border-radius: 7px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 14px;
+    border: 1px solid white;
+    width: 7cm;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button{
+    margin-top: 20px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover{
+    color: aqua;
+}
+
+.bcenter{
+    margin: 20px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.bcenter:hover{
+    color: aqua;
+}
+
+
+.form{
+    
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
