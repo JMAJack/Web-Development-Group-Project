@@ -12,9 +12,14 @@
 
     </head>
 <body>
-  
-
+  <audio autoplay loop>
+    <source src="Assets/Jeoperdy.mp3">
+  </audio>
+    
     <section>
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Assets/backgroundvideo.mp3">
+        </video>
         <form action = "mailto:jjonmarc21@gmail.com" name = "information" class="form">
             <div>
                 <h1 class="pinfo">
@@ -123,16 +128,23 @@
 
                         <div class="buttons">
                             <div>
-                                <button class="button" onclick=""><!--Make the button register user-->
+                                <button class="button" onclick="document.getElementById('demo').innerHTML = PlayGame()"><!--Make the button register user-->
                                     Register
                                 </button>
                             </div>
                 
                             <div>
+                                <button type="button"  class="bcenter"">
+                                    Click me to display Date and Time.
+                                </button>
+                            </div>
+
+                            <!--<div>
                                 <button type="button"  class="bcenter" onclick="document.getElementById('demo').innerHTML = PlayGame()">
                                     Click me to display Date and Time.
                                 </button>
                             </div>
+                            -->
             
                         </div>
                         

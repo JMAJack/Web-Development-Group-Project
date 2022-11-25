@@ -1,7 +1,26 @@
-body {
-    background-color: #191970;
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
 }
-  
+
+@media (min-aspect-ratio: 16/9)
+{
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9)
+{
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
 .pinfo{
     display: block;
     text-align: center;
@@ -35,6 +54,15 @@ div.div{
 }
 
 .div2 input{
+    border-radius: 7px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 14px;
+    border: 1px solid white;
+    width: 7cm;
+}
+
+.div2 select{
     border-radius: 7px;
     padding: 4px;
     margin: 4px;
