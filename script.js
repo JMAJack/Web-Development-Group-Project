@@ -32,9 +32,20 @@ else
             let DoR = document.getElementById("DoR").value;
             let Age = document.getElementById("Age").value;
             let email = document.getElementById("email").value;
-            let gender1 = document.getElementById("gender1").value;
-            let gender2 = document.getElementById("gender2").value;
+            let gender;
+                if (document.getElementById("gender1").checked)
+                {
+                    gender =  "Male";
+                }
+                else if (document.getElementById("gender2").checked)
+                {
+                    gender =  "Female";
+                }
+
             let EDlevel = document.getElementById("EDlevel").value;
+
+
+            
 
 
 
