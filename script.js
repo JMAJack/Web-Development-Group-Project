@@ -40,11 +40,11 @@ else
 
             if (!fname || !lname || !street || !city || !town || !parish || !DoR || !Age || !email || !gender1 || !gender2 || !EDlevel)
             {
-                alert("Fill out all Fields")
+                alert("Fill out all Fields");
             }
             else
             {
-                PlayersData.push({fname,lname,street,city,town,parish,DoR,Age,email,gender1,gender2,EDlevel})
+                PlayersData.push({fname,lname,street,city,town,parish,DoR,Age,email,gender1,gender2,EDlevel});
             }
 
 console.log(PlayersData);
