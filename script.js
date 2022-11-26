@@ -1,7 +1,7 @@
 let PlayersData = [];
 
 
-
+/* Validates Email */
 function ValidateEmail(inputText)
 {
 let mailformat = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[SomeEmail]+(?:.[com]+)*$/;
@@ -17,6 +17,22 @@ else
     return true;
 }
 }
+/* Validates Email */
+
+
+/* Disable other buttons when REgister is Pressed */
+$('#accept').click(function() 
+{
+	if ($('#submitbtn').is(':disabled')) 
+    {
+    	$('#submitbtn').removeAttr('disabled');
+    } 
+    else 
+    {
+    	$('#submitbtn').attr('disabled', 'disabled');
+    }
+});
+/* Disable other buttons when REgister is Pressed */
 
 
         function Register() 
@@ -59,6 +75,10 @@ else
             }
 
 console.log(PlayersData);
+
+
+            let today = Date();
+
 
             if (!Age)
             {
