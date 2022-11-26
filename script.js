@@ -35,7 +35,25 @@ else
             let gender1 = document.getElementById("gender1").value;
             let gender2 = document.getElementById("gender2").value;
             let EDlevel = document.getElementById("EDlevel").value;
-            let email = document.getElementById("email").value;
+
+
+
+            if (!fname || !lname || !street || !city || !town || !parish || !DoR || !Age || !email || !gender1 || !gender2 || !EDlevel)
+            {
+                alert("Fill out all Fields")
+            }
+            else
+            {
+                PlayersData.push({fname,lname,street,city,town,parish,DoR,Age,email,gender1,gender2,EDlevel})
+            }
+
+console.log(PlayersData);
+
+            if (!Age)
+            {
+                Age <= 12;
+
+            }
 
         }
 
