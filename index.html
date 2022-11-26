@@ -19,6 +19,11 @@
           width: 100%;
         }
         
+        label
+        {
+            text-align: right;
+        }
+        
         td, th 
 		{
           border: 1px solid #dddddd;
@@ -101,7 +106,7 @@
 			
 			<!-- Column 2 -->
 			<td>
-                <input type="text" id="street" name="street" placeholder ="E.g. Jamaica"> <br/>				     
+                <input type="text" id="street" name="street" placeholder ="E.g. Jamaica" required> <br/>				     
 			</td>
 		  </tr>
 			
@@ -115,7 +120,7 @@
 			
 			<!-- Column 2 -->
 			<td>
-                <input type="text" id="city" name="city" placeholder ="E.g. Kingston"> <br/>				     
+                <input type="text" id="city" name="city" placeholder ="E.g. Kingston" required> <br/>				     
 			</td>
 		  </tr>
 		
@@ -129,7 +134,7 @@
 			
 			<!-- Column 2 -->
 			<td>
-                <input type="text" id="town" name="town" placeholder ="E.g. Havendale"> <br/>				     
+                <input type="text" id="town" name="town" placeholder ="E.g. Havendale" required> <br/>				     
 			</td>
 		  </tr>
 			
@@ -171,12 +176,23 @@
 			  <label for="DoB">Date of Birth: </label> <br/>
 			</td>
 		    
+		   
 			<!-- Column 2 -->
 			<td>		
-		      <input type="date" id="DoR" name="DoR" max="2022-09-19"> <br/>
+		      <input type="date" id="DoR" name="DoR" max="2022-09-19" required> <br/>
 			</td>	
 		  </tr>
 		  
+		  <tr>
+		        <td style = 'text-align:right'>
+		            <label for="Age"> Age:</label> </br>   
+		        </td>
+		    
+		        <td>
+		            <input type="number" id="Age" name="Age"> <br/>
+		        </td>
+		        
+	        </tr>
 		  <!-- Row 6 -->
 		  <tr>
 		  
@@ -223,34 +239,22 @@
 			</td>
 			
 			<!-- Column 2 -->
-			<td>
-			  <input type ="radio" id="EDlevel" name="EDlevel" value="EDlevel">
-			    <label for="EDlevel">Early childhood education (level 0)</label> <br>
-				
-			  <input type ="radio" id="EDlevel" name="EDlevel" value="EDlevel">
-			    <label for="EDlevel">Primary education (level 1)</label> <br>
-				
-			  <input type ="radio" id="EDlevel" name="EDlevel" value="Lower secondary education (level 2)">
-			    <label for="EDlevel">Lower secondary education (level 2)</label> <br>
-				
-			  <input type ="radio" id="EDlevel" name="EDlevel" value="Upper secondary education (level 3)">
-			    <label for="EDlevel">Upper secondary education (level 3)</label> <br>
-				
-			  <input type ="radio" id="EDlevel" name="EDlevel" value="Postsecondary Non-Tertiary education (level 4)">
-			    <label for="EDlevel">Postsecondary Non-Tertiary education (level 4)</label> <br>
-
-            <input type ="radio" id="EDlevel" name="EDlevel" value="Short-cycle tertiary education (level 5)">
-			    <label for="EDlevel">Short-cycle tertiary education (level 5)</label> <br>
-				
-            <input type ="radio" id="EDlevel" name="EDlevel" value="Bachelor's or equivalent level (level 6)">
-			    <label for="EDlevel">Bachelor's or equivalent level (level 6)</label> <br>
-
-            <input type ="radio" id="EDlevel" name="EDlevel" value="Master's or equivalent level (level 7)">
-			    <label for="EDlevel">Master's or equivalent level (level 7)</label> <br>
-
-            <input type ="radio" id="EDlevel" name="EDlevel" value="Doctor or Equivalent level (level 8)">
-			    <label for="EDlevel">Doctor or Equivalent level (level 8)</label>
+            <td>
+                  <select id="EDlevel" name="EDlevel">
+				    <option value = "Early childhood education (level 0)"> Early childhood education (level 0) </option>
+				    <option value = "Primary education (level 1)"> Primary education (level 1) </option>
+				    <option value = "Lower secondary education (level 2)">Lower secondary education (level 2)</option>
+				    <option value = "Upper secondary education (level 3)"> Upper secondary education (level 3) </option>
+				    <option value = "Postsecondary Non-Tertiary education (level 4)"> Postsecondary Non-Tertiary education (level 4) </option>
+				    <option value = "Short-cycle tertiary education (level 5)"> Short-cycle tertiary education (level 5) </option>
+				    <option value = "Bachelor's or equivalent level (level 6)"> Bachelor's or equivalent level (level 6) </option>
+				    <option value = "Master's or equivalent level (level 7)"> Master's or equivalent level (level 7) </option>
+				    <option value = "Doctor or Equivalent level (level 8)"> Doctor or Equivalent level (level 8) </option>
+                  </select>	
+               				 
 			</td>
+		  </tr>
+
 
             <tr>
             </tr>
