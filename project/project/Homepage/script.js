@@ -26,14 +26,18 @@ $('#accept').click(function()
 	if ($('#submitbtn').is(':disabled')) 
     {
     	$('#submitbtn').removeAttr('disabled');
-        $('#endbtn').attr('disabled', 'disabled');
-        $('#playbtn').attr('disabled', 'disabled');
+        $('#endbtn').removeAttr('disabled', 'disabled');
+        $('#playbtn').removeAttr('disabled', 'disabled');
+      $('#ansbtn').removeAttr('disabled', 'disabled');
     } 
 
     
     else 
     {
     	$('#submitbtn').attr('disabled', 'disabled');
+      $('#endbtn').attr('disabled', 'disabled');
+        $('#playbtn').attr('disabled', 'disabled');
+      $('#ansbtn').attr('disabled', 'disabled');
     }
 });
 /* Disable other buttons when REgister is Pressed */
