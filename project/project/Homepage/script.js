@@ -26,7 +26,11 @@ $('#accept').click(function()
 	if ($('#submitbtn').is(':disabled')) 
     {
     	$('#submitbtn').removeAttr('disabled');
+        $('#endbtn').attr('disabled', 'disabled');
+        $('#playbtn').attr('disabled', 'disabled');
     } 
+
+    
     else 
     {
     	$('#submitbtn').attr('disabled', 'disabled');
@@ -93,14 +97,7 @@ console.log(PlayersData);
 		Thats 3 entriess so far
 		*/
             
-		//Buttons
-
-			/*
-				<button onclick="PlayGame()">Play Game</button>
-				<button onclick="PlayGame()">Play Again</button>
-				<button onclick="EndGame()">End Game</button>
-				<button onclick="CheckAnswer()">Answer</button>
-			*/
+		
 
 
      /*
