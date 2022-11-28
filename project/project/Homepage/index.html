@@ -274,8 +274,8 @@
 		</table>
 	   </center>
 
-		<button type="button" onclick="document.getElementById('demo').innerHTML = PlayGame()" >
-			<a href="./jp.html">Play Game.</a>
+		<button  id="accept" name="accept"	type="button" onclick="document.getElementById('demo').innerHTML = PlayGame()" >
+			<a href="./project/jp.html">Play Game.</a>
 		</button>
 	   
 	  </form>
@@ -286,6 +286,14 @@
 	Results.
 </button>
 
+
+
+			
+	<button id="playbtn" name="playbtn" disabled="disabled" onclick="PlayGame()">Play Game</button>
+	<button onclick="PlayGame()">Play Again</button>
+	<button id="endbtn" name="endbtn" disabled="disabled" onclick="EndGame()">End Game</button>
+	<button id="ansbtn" name="ansbtn" disabled="disabled" onclick="CheckAnswer()">Answer</button>
+			
 
 
 	</section>

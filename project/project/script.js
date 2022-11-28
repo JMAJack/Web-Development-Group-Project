@@ -45,7 +45,7 @@ class TriviaGameShow {
       });
       
       //Render initial state of score
-      this.updateScore(0);
+      this.updateScore(100);
       
       //Kick off the category fetch
       this.fetchCategories();

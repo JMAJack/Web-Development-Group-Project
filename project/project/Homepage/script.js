@@ -26,10 +26,18 @@ $('#accept').click(function()
 	if ($('#submitbtn').is(':disabled')) 
     {
     	$('#submitbtn').removeAttr('disabled');
+        $('#endbtn').removeAttr('disabled', 'disabled');
+        $('#playbtn').removeAttr('disabled', 'disabled');
+      $('#ansbtn').removeAttr('disabled', 'disabled');
     } 
+
+    
     else 
     {
     	$('#submitbtn').attr('disabled', 'disabled');
+      $('#endbtn').attr('disabled', 'disabled');
+        $('#playbtn').attr('disabled', 'disabled');
+      $('#ansbtn').attr('disabled', 'disabled');
     }
 });
 /* Disable other buttons when REgister is Pressed */
@@ -93,14 +101,7 @@ console.log(PlayersData);
 		Thats 3 entriess so far
 		*/
             
-		//Buttons
-
-			/*
-				<button onclick="PlayGame()">Play Game</button>
-				<button onclick="PlayGame()">Play Again</button>
-				<button onclick="EndGame()">End Game</button>
-				<button onclick="CheckAnswer()">Answer</button>
-			*/
+		
 
 
      /*
