@@ -118,6 +118,22 @@ console.log(PlayersData);
 
             function CheckAnswer()
             {
+
+                if (params)         
+                
+                {
+                    ;
+                }
+                else 
+                {
+                        ;
+
+                    if (params)
+                    {
+                        ;
+                    }
+                }
+
 				/* 
 				if statement to be used here
 
